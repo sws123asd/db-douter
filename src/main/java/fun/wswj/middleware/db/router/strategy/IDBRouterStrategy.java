@@ -1,7 +1,7 @@
 package fun.wswj.middleware.db.router.strategy;
 
 /**
- * @description: 路由策略
+ *  路由策略
  */
 public interface IDBRouterStrategy {
 

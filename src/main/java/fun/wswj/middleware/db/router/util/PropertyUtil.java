@@ -1,19 +1,14 @@
 package fun.wswj.middleware.db.router.util;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-
 import org.springframework.core.env.Environment;
 import org.springframework.core.env.PropertyResolver;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
 /**
- * @description: 属性工具类
- * @author: 小傅哥，微信：fustack
- * @date: 2021/9/22
- * @github: https://github.com/fuzhengwei
- * @Copyright: 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
+ * 属性工具类
  */
 public class PropertyUtil {
 

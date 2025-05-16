@@ -28,7 +28,7 @@ import java.util.Map;
 import java.util.Objects;
 
 /**
- * @description: 数据源配置解析。
+ *  数据源配置解析。
  */
 @Configuration
 public class DataSourceAutoConfig implements EnvironmentAware {

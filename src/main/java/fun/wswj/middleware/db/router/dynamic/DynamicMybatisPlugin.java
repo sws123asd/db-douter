@@ -19,7 +19,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @description: Mybatis 拦截器，通过对 SQL 语句的拦截处理，修改分表信息
+ *  Mybatis 拦截器，通过对 SQL 语句的拦截处理，修改分表信息
  */
 @Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class, Integer.class})})
 public class DynamicMybatisPlugin implements Interceptor {

@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @description: 哈希路由
+ *  哈希路由
  */
 public class DBRouterStrategyHashCode implements IDBRouterStrategy {
 

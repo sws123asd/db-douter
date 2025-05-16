@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
 /**
- * @description: 动态数据源获取，每当切换数据源，都要从这个里面进行获取
+ *  动态数据源获取，每当切换数据源，都要从这个里面进行获取
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {
 

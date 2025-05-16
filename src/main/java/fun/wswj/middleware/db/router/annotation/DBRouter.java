@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 
 /**
- * @description: 路由注解
+ *  路由注解
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

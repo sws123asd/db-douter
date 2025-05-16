@@ -1,7 +1,7 @@
 package fun.wswj.middleware.db.router;
 
 /**
- * @description: 数据路由配置
+ *  数据路由配置
  */
 public class DBRouterConfig {
 

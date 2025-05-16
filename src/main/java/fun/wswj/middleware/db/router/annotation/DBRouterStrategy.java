@@ -3,7 +3,7 @@ package fun.wswj.middleware.db.router.annotation;
 import java.lang.annotation.*;
 
 /**
- * @description: 路由策略，分表标记
+ *  路由策略，分表标记
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

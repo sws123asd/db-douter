@@ -1,7 +1,7 @@
 package fun.wswj.middleware.db.router;
 
 /**
- * @description: 数据源上下文
+ *  数据源上下文
  */
 public class DBContextHolder {
 
