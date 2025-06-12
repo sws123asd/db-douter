@@ -92,7 +92,7 @@ mini-db-router:
 <dependency>
     <groupId>fun.wswj.middleware</groupId>
     <artifactId>db-router-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 ### 2. 配置 application.properties / application.yml
