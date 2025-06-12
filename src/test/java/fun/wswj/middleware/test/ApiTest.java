@@ -38,6 +38,16 @@ public class ApiTest {
         System.out.println(dbRouter.key());
 
     }
+
+    @Test
+    public void test_db_consistent() {
+        int dbCount = 8, tbCount = 8;
+        int physicalNodeCount = dbCount * tbCount;
+        int virtualNodeCount = Math.max(1024, (int)(200 * Math.log(physicalNodeCount)));
+        int optimalVNodes = Math.max(100, (int)(50 * Math.log(physicalNodeCount + 1)));
+        System.out.println(virtualNodeCount);
+        System.out.println(optimalVNodes);
+    }
 }
 
 
